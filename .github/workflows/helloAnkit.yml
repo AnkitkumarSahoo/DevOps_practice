@@ -9,14 +9,15 @@ on:
 jobs:
 
     #this is the name of the job
-    greet:
+  greet:
       #this is github runner
-      runs-on: ubuntu-latest
-      steps:
-        - name: say hello to users
-        - run: echo "Hello Dosto"
+    runs-on: ubuntu-latest
+    steps:
+      - name: say hello to users
+      - run: echo "Hello Dosto"
 
-        - name: say hello to username
-        - run: echo "Hello $USER"
+      - name: say hello to username
+      - run: echo "Hello $USER"
         
   
+ 
